@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(33, 34, 33);
+	color: rgb();
+	font-family: "Baloo 2", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	color: azure;
+}	
+.nav ul {
+      display: flex;
+	  list-style: none;
+    color: rgb(255,255,255);
+	  text-align: center;
+	  justify-content: flex-end;
+	  gap: 30px;
+}
+.nav li a {
+	text-decoration: none;
+	color: azure;
+}
+.nav li a:hover{
+	text-decoration: none;
+	color: rgb(129, 159, 223);
+	font-size: large;
+	font-weight: 400;
+}
+.img_ img{
+	float: left;
+	padding: 10px;
+	margin-left: 100px;
+	border-radius: 75%;
+}
+.img_{
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: azure;
+ 
+  margin-top:100px;
+}
+ hr{
+	
+	margin-top: 80px;
+}
+.self{
+	color: lavender;
+}
+#element{
+	color: rgb(221, 168, 186);
+}
+
+.contact img{
+	width: 30px;
+	float: left;
+}
+.contact ul{
+	display: flex;
+    gap: 50px;
+	list-style: none;
+	margin: 30px 40px;
+	
+}
+section{
+	padding: 20px;
+	color: rgb(255,246,219);
+}
+.left{
+	font-size: larger;
+	font-weight: 800;
+}
+h1{
+	margin-inline-start: 30px;
+}
+
+.quali {
+	margin-left: 50px;
+	
+}
+.skill{
+	margin-left: 50px;
+}
+.achiev{
+	margin-left: 50px;
+}
+.about{
+	margin-left: 30px;
+	width: 550px;
+}
+section  h1{
+	padding: 30px 50px;
+	margin-top: 50px;
+	font-size: 260%;
+}
+.conclusion{
+	margin: 30px;
+	width: 950px;
+}
+
+h2{
+    margin-top: 70px;
+	margin-left: 70px;
+	font-size: 250%;
+}
+.contact a{
+	text-decoration: none;
+	color: rgb(175, 209, 238);
+	cursor: pointer;
+}
+.contact a:hover{
+	color: seashell;
+	font-size:larger;
+	font-weight: 300;
+}
+.git{
+	width: 100px;
+	
+	border: 2px solid whitesmoke;
+	background-color: rgb(32, 32, 32);
+	margin: 50px 40px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.git :hover{
+	background-color: #493f3f;
+	color: black;
+}
+.side{
+	margin-right: 35px;
+}
